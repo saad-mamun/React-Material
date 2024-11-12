@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Work() {
   return (
@@ -26,6 +27,12 @@ function Work() {
                         <img src="/mark.png" alt="Mark" />
                         Make more time for the work
                         </p>
+                        <div className='mt-3'>
+                        <button className='bg-[#5F62E2] hover:bg-violet-700 font-semibold py-3 px-6 rounded-lg transition duration-300 text-white  flex items-center justify-center gap-2  mx-auto sm:mx-0'>
+                       Explore All
+                      <ArrowForwardIcon sx={{fontSize:22}}/>
+                      </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -46,6 +53,12 @@ function Work() {
                         <img src="/mark.png" alt="Mark" />
                         Make more time for the work
                         </p>
+                        <div className='mt-3'>
+                        <button className='bg-indigo-100 font-semibold py-3 px-6 rounded-lg transition duration-300 text-[#5F62E2] flex items-center justify-center gap-2 hover:bg-indigo-200 mx-auto sm:mx-0'>
+                       Explore All
+                      <ArrowForwardIcon sx={{fontSize:22}}/>
+                      </button>
+                        </div>
                     </div>
                     <div>
                         <img src="time.png" alt="Time" />

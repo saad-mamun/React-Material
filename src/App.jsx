@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Presentation from './Components/Presentation'
 import Work from './Components/Work'
+import Slider from './Components/Slider'
+import Video from './Components/Video'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
     <Navbar/>
     <Hero/>
     <Presentation/>
+    <Slider/>
+    <Video/>
     <Work/>
     </>
   )
