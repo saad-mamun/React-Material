@@ -70,9 +70,18 @@ function Slider() {
         </div>
       </div>
       {/* Breand name */}
-      <div className='flex items-center justify-center mt-16'>
-        <img className='w-full object-cover' src="/Logos.png" alt="" />
-      </div>
+      <div class="overflow-hidden whitespace-nowrap pt-6 container mx-auto ">
+          <div class="inline-block animate-marquee">
+            <div className='flex items-center gap-20'>
+                <img src="google.png" alt="Google" />
+                <img src="airbnb.png" alt="Airbnb" />
+                <img src="mastercard.png" alt="Mastercard" />
+                <img src="Path.png" alt="Path" />
+                <img src="stripe.png" alt="stripe" />
+                <img src="UBER.png" alt="UBER" />
+            </div>
+         </div>
+     </div>
     </section>
   )
 }
