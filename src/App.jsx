@@ -9,6 +9,7 @@ import Work from './Components/Work'
 import Slider from './Components/Slider'
 import Video from './Components/Video'
 import BomArea from './Components/BomArea'
+import Blog from './Components/Blog'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Video/>
     <Work/>
     <BomArea/>
+    <Blog/>
     </>
   )
 }
