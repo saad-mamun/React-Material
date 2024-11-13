@@ -14,7 +14,7 @@ function Work() {
                 </div>
                 <div>
                     <div className='flex flex-col gap-4'>
-                        <h1 className='text-3xl lg:text-4xl font-semibold '>Make more time for the work</h1>
+                        <h1 className='text-3xl lg:text-4xl font-bold '>Make more time for the work</h1>
                         <p className='flex flex-row gap-2'>
                             <img src="/mark.png" alt="Mark" />
                             Many ways to use illustrations in design
@@ -40,7 +40,7 @@ function Work() {
             <div  className=''>
                 <div className='flex flex-col-reverse items-center justify-between lg:flex-row'>
                     <div className='flex flex-col gap-4'>
-                        <h1 className='text-3xl lg:text-4xl font-semibold '>Make more time for the work</h1>
+                        <h1 className='text-3xl lg:text-4xl font-bold '>Make more time for the work</h1>
                         <p className='flex flex-row gap-2'>
                             <img src="/mark.png" alt="Mark" />
                             Many ways to use illustrations in design

@@ -30,7 +30,7 @@ function Slider() {
     ];
 
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] =useState(0);
     const prevSlide = () =>{
             setCurrentIndex((prevIndex)=> (prevIndex === 0 ? slides.length -1: prevIndex -1 ))
 };

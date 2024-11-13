@@ -68,8 +68,8 @@ const socialLinks =[
               <p className='text-gray-500 text-center lg:text-start !mt-[85px] '>Follow us</p>
               <div className='flex justify-center lg:justify-start gap-4 mt-6 items-center'>
                 {
-                  socialLinks.map((social)=>(
-                    <a href="" className='bg-[#C4C4C4] rounded-full p-3 hover:bg-gray-400 transition duration-300'>
+                  socialLinks.map((social,i)=>(
+                    <a  key={i} href="" className='bg-[#C4C4C4] rounded-full p-3 hover:bg-gray-400 transition duration-300'>
                       <img className='w-[30px] h-[30px]' src={social.link} alt="Social Link" />
                     </a>
                   ))

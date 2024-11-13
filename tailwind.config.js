@@ -13,7 +13,7 @@ export default {
         },
       },
       animation: {
-        marquee: 'marquee 10s linear infinite',
+        marquee: 'marquee 8s linear infinite',
       },
     },
   },

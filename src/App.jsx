@@ -8,7 +8,8 @@ import Presentation from './Components/Presentation'
 import Work from './Components/Work'
 import Slider from './Components/Slider'
 import Video from './Components/Video'
-import Scroll from './Components/Scroll'
+import BomArea from './Components/BomArea'
+
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
     <Slider/>
     <Video/>
     <Work/>
-    <Scroll/>
+    <BomArea/>
     </>
   )
 }
